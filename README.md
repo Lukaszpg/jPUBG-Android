@@ -1,4 +1,4 @@
-# jPUBG
+# jPUBG Android
 
 [![Build Status](https://travis-ci.org/Lukaszpg/jPUBG.svg?branch=master)](https://travis-ci.org/Lukaszpg/jPUBG)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Lukaszpg/jPUBG/master/LICENSE)
@@ -7,7 +7,7 @@
 
 ## Overview
 
-Simple API wrapper written in Java 8 for retriving statistics from http://pubgtracker.com API. 
+Simple API wrapper written in Java for retriving statistics from http://pubgtracker.com API. This is Android version without Java 8 features to provide full compatibility with Android.
 You need valid pubgtracker.com API KEY in order to use my API wrapper. You can get one here: https://pubgtracker.com/site-api.
 
 ## How to get
@@ -19,14 +19,14 @@ It's simple - just add few lines below to your pom.xml and you're good to go! X.
 ```
 <dependency>
       <groupId>pro.lukasgorny</groupId>
-      <artifactId>jpubg</artifactId>
+      <artifactId>jpubg-android</artifactId>
       <version>X.X.X</version>
 </dependency>
 ```
 
 ### 2. As a standalone library
 
-To get the library file compiled with Java 1.8.0_131 please go to [releases](https://github.com/Lukaszpg/jPUBG/releases) and download latest available version. Add it to your project classpath, then get the jPUBG API wrapper object from the factory with your api key and start fetching data! 
+To get the library file compiled with Java 1.8.0_131 please go to [releases](https://github.com/Lukaszpg/jPUBG-Android/releases) and download latest available version. Add it to your project classpath, then get the jPUBG API wrapper object from the factory with your api key and start fetching data! 
 
 
 ## Example usage
@@ -80,10 +80,10 @@ As this is completely Open Source project, you may clone the code from the Githu
 1. Be sure that you have Maven (at least version 3.3.9) installed.
 2. Go to the directory where you have cloned the repository.
 3. Perform ***mvn clean package*** command and wait a minute.
-4. Compiled .jar file will appear in the ***/target*** folder. The one you should use is named ***jPUBG-X.X.X-SNAPSHOT-jar-with-dependencies.jar***, where X.X.X is of course version of the application.
+4. Compiled .jar file will appear in the ***/target*** folder. The one you should use is named ***jPUBG-Android-X.X.X-SNAPSHOT-jar-with-dependencies.jar***, where X.X.X is of course version of the application.
 
 ## Documentation
 
-Documentation is available on: http://www.javadoc.io/doc/pro.lukasgorny/jpubg
+Documentation is available on: http://www.javadoc.io/doc/pro.lukasgorny/jpubg-android
 
 JavaDocs are updated once per 24h after new version release.
