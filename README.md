@@ -7,7 +7,7 @@
 
 ## Support
 
-Looking for help? Join our Gitter: [![Gitter chat](https://badges.gitter.im/jPUBG/gitter.png)](https://gitter.im/jPUBG/gitter)
+Looking for help? Join our Gitter: [![Gitter chat](https://badges.gitter.im/jPUBG/gitter.png)](https://gitter.im/jPUBG)
 
 ## Overview
 
