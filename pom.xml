@@ -3,7 +3,7 @@
 
   <groupId>pro.lukasgorny</groupId>
   <artifactId>jpubg-android</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
   <description>Simple API wrapper written in Java for retriving statistics from http://pubgtracker.com API.
       This is Android version without Java 8 features to provide full compatibility with Android.</description>
