@@ -7,7 +7,7 @@
 
 ## Overview
 
-Simple API wrapper written in Java for retriving statistics from http://pubgtracker.com API. his is Android version without Java 8 features to provide full compatibility with Android.
+Simple API wrapper written in Java for retriving statistics from http://pubgtracker.com API. This is Android version without Java 8 features to provide full compatibility with Android.
 You need valid pubgtracker.com API KEY in order to use my API wrapper. You can get one here: https://pubgtracker.com/site-api.
 
 ## How to get
