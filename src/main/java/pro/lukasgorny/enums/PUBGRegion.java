@@ -9,5 +9,6 @@ public enum PUBGRegion {
     eu,
     as,
     oc,
-    sa
+    sa,
+    sea
 }
