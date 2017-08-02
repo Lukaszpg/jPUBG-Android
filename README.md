@@ -5,6 +5,10 @@
 [![Maven Central](https://img.shields.io/maven-central/v/pro.lukasgorny/jpubg-android.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22pro.lukasgorny%22)
 [![Javadocs](http://www.javadoc.io/badge/pro.lukasgorny/jpubg-android.svg)](http://www.javadoc.io/doc/pro.lukasgorny/jpubg-android)
 
+## Support
+
+Looking for help? Join our Gitter: [![Gitter chat](https://badges.gitter.im/jPUBG/gitter.png)](https://gitter.im/jPUBG/Android-support)
+
 ## Overview
 
 Simple API wrapper written in Java for retriving statistics from http://pubgtracker.com API. This is Android version without Java 8 features to provide full compatibility with Android.
