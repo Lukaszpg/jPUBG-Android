@@ -83,11 +83,13 @@ try {
       System.out.println("Player could not be found or validated: " + e.getLocalizedMessage());
 }
 
-// We would like to retrieve best rating for player "TheHusar" for season PRE2_2017
-Stat stat = jPubg.getPlayerMatchStatByStatName(player, PUBGStat.BEST_RATING);
+if(player != null) {
+      // We would like to retrieve best rating for player "TheHusar" for season PRE2_2017
+      Stat stat = jPubg.getPlayerMatchStatByStatName(player, PUBGStat.BEST_RATING);
 
-// You can get season name directly from stat object
-System.out.println("Player " + player.getPlayerName() + " best rating in season: " + stat.getSeason().getSeasonName() + " is: " + stat.getStringValue());
+      // You can get season name directly from stat object
+      System.out.println("Player " + player.getPlayerName() + " best rating in season: " + stat.getSeason().getSeasonName() + " is: " +         stat.getStringValue());
+}
 ```
 
 ## Compiling on your own
