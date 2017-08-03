@@ -74,9 +74,11 @@ criteria.setMode(PUBGMode.solo);
 criteria.setRegion(PUBGRegion.eu);
 criteria.setSeason(PUBGSeason.PRE2_2017);
 
+Player player = null;
+
 // Always remember to use try-catch block for error processing!
 try {
-      Player player = jPubg.getByNickname("TheHusar", criteria);
+      player = jPubg.getByNickname("TheHusar", criteria);
 } catch (IllegalArgumentException e) {
       System.out.println("Player could not be found or validated: " + e.getLocalizedMessage());
 }
