@@ -52,7 +52,12 @@ FilterCriteria criteria2 = new FilterCriteria(PUBGMode.solo, PUBGRegion.eu, PUBG
 criteria.setMode(null);
 
 // All solo matches from all seasons are being returned here
-Player player = jPubg.getByNickname("TheHusar", criteria);
+// Always remember to use try-catch block for error processing!
+try {
+      Player player = jPubg.getByNickname("TheHusar", criteria);
+} catch (IllegalArgumentException e) {
+      System.out.println("Player could not be found or validated: " + e.getLocalizedMessage());
+}
 ```
 
 ### Stat from season filtering
@@ -69,7 +74,12 @@ criteria.setMode(PUBGMode.solo);
 criteria.setRegion(PUBGRegion.eu);
 criteria.setSeason(PUBGSeason.PRE2_2017);
 
-Player player = jPubg.getByNickname("TheHusar", criteria);
+// Always remember to use try-catch block for error processing!
+try {
+      Player player = jPubg.getByNickname("TheHusar", criteria);
+} catch (IllegalArgumentException e) {
+      System.out.println("Player could not be found or validated: " + e.getLocalizedMessage());
+}
 
 // We would like to retrieve best rating for player "TheHusar" for season PRE2_2017
 Stat stat = jPubg.getPlayerMatchStatByStatName(player, PUBGStat.BEST_RATING);
