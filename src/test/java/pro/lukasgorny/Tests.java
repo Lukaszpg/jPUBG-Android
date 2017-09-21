@@ -1,26 +1,11 @@
 package pro.lukasgorny;
 
-import org.junit.Before;
-import org.junit.Test;
-
-import pro.lukasgorny.core.JPubg;
-import pro.lukasgorny.dto.FilterCriteria;
-import pro.lukasgorny.dto.Player;
-import pro.lukasgorny.dto.Stat;
-import pro.lukasgorny.enums.PUBGMode;
-import pro.lukasgorny.enums.PUBGRegion;
-import pro.lukasgorny.enums.PUBGSeason;
-import pro.lukasgorny.enums.PUBGStat;
-import pro.lukasgorny.factory.JPubgFactory;
-
-import static org.junit.Assert.assertNotNull;
-
 /**
  * Created by Łukasz "Husar" Górny on 2017-07-24.
  */
 public class Tests {
 
-    private JPubg jPubg;
+    /*private JPubg jPubg;
     private FilterCriteria criteria;
 
     @Before
@@ -54,5 +39,5 @@ public class Tests {
     public void testGetPlayerStringDataBySteamId() {
         String playerData = jPubg.getBySteamID("STEAM_0:0:56407384");
         assertNotNull("Returned player string data is null!", playerData);
-    }
+    }*/
 }
