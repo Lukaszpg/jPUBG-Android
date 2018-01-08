@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This library is deprecated and will not be maintained anymore and it will not receive updates as I don't have time on my hands. There's ![PUBGj](https://github.com/thatscloud/pubj) so you may use that instead.
+
 # jPUBG Android
 
 [![Build Status](https://travis-ci.org/Lukaszpg/jPUBG-Android.svg?branch=master)](https://travis-ci.org/Lukaszpg/jPUBG-Android)
